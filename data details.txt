@@ -1,0 +1,7 @@
+database for employee : pharmacy
+
+table : create table employee(eid INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(100) NOT NULL, email VARCHAR(60) NOT NULL, gender TEXT NOT NULL, contact VARCHAR(20) NOT NULL, dob VARCHAR(10) NOT NULL, doj VARCHAR(10) NOT NULL, pass VARCHAR(80) NOT NULL, utype VARCHAR(50) NOT NULL, address TEXT NOT NULL, salary INT NOT NULL);   
+
+
+
+"eid","name","email","gender","contact","dob","doj","pass","utype","address","salary"
