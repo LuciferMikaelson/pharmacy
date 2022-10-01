@@ -134,6 +134,10 @@ class Product:
     def sub(a,b):
         s = a-b
         retunr s
+        
+    def mul(a,b):
+        s = a//b
+        return s
     
     def fetch_cat_sup(self):
         #self.cat_list.append("Empty")
