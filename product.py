@@ -139,6 +139,10 @@ class Product:
         s = a//b
         return s
     
+    def add(a, b):
+        sum = a+b
+        return sum
+    
     def fetch_cat_sup(self):
         #self.cat_list.append("Empty")
         self.sup_list.append("Empty")
