@@ -131,6 +131,10 @@ class Product:
         
      # function
     
+    def sub(a,b):
+        s = a-b
+        retunr s
+    
     def fetch_cat_sup(self):
         #self.cat_list.append("Empty")
         self.sup_list.append("Empty")
